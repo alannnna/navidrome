@@ -3,6 +3,8 @@ import ShuffleIcon from '@material-ui/icons/Shuffle'
 import LibraryAddIcon from '@material-ui/icons/LibraryAdd'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import RepeatIcon from '@material-ui/icons/Repeat'
+import NewReleasesIcon from '@material-ui/icons/NewReleases'
+import NewReleasesOutlinedIcon from '@material-ui/icons/NewReleasesOutlined'
 import AlbumIcon from '@material-ui/icons/Album'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
@@ -62,6 +64,16 @@ const albumLists = {
       />
     ),
     params: 'sort=recently_added&order=DESC&filter={}',
+  },
+  recentlyReleased: {
+    icon: (
+      <DynamicMenuIcon
+        path={'album/recentlyReleased'}
+        icon={NewReleasesOutlinedIcon}
+        activeIcon={NewReleasesIcon}
+      />
+    ),
+    params: 'sort=max_year&order=DESC&filter={}',
   },
   recentlyPlayed: {
     icon: (
