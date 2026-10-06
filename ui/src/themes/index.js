@@ -8,6 +8,7 @@ import MonokaiTheme from './monokai'
 import ElectricPurpleTheme from './electricPurple'
 import NordTheme from './nord'
 import GruvboxDarkTheme from './gruvboxDark'
+import KuroTheme from './kuro'
 import CatppuccinFrappeTheme from './catppuccinFrappe'
 import CatppuccinMacchiatoTheme from './catppuccinMacchiato'
 import CatppuccinMochaTheme from './catppuccinMocha'
@@ -42,6 +43,7 @@ export default {
   ExtraDarkTheme,
   GreenTheme,
   GruvboxDarkTheme,
+  KuroTheme,
   LigeraTheme,
   MonokaiTheme,
   MoonbaseAlphaTheme,
